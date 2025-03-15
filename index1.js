@@ -9,6 +9,6 @@ app.get("/", (req, res) => {
     res.send(`<h1>Behold, I am ${superheroName}!</h1>`);
 });
 
-app.listen(port, (req, res) => {
+app.listen(port, () => {
     console.log(`Server running on port ${port}...`);
 });
